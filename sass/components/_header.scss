@@ -1,0 +1,13 @@
+header {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+
+  .layout-wrapper {
+    border-bottom: 2px solid $dark-text-color;
+  }
+
+  p {
+    font-weight: 500;
+    color: inherit;
+  }
+}
