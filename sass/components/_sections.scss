@@ -11,7 +11,7 @@
     margin-bottom: 2rem;
 
     .cta {
-      color: $dark-text-color;
+      color: inherit;
       display: inline-block;
       padding: 0.6rem 1rem;
       margin-top: 1rem;
@@ -38,17 +38,22 @@
   }
 
   .project {
-    width: 280px;
-    padding: 1.1rem;
+    width: 310px;
+    padding: 1.4rem;
     margin-bottom: 2rem;
     border-radius: $border-radius;
     background: $dark-bg-color-2;
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
 
     &__heading {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 0.5rem;
+      margin-bottom: 1rem;
     }
 
     &__links {
@@ -67,10 +72,11 @@
 
     &__badges {
       display: flex;
+      margin-top: 1rem;
 
       .badge {
         padding: 0.3rem 0.7rem;
-        margin-right: 0.4rem;
+        margin-right: 0.8rem;
         font-size: 1rem;
         border-radius: 3px;
         background: $accent-color;
@@ -88,5 +94,12 @@
 
   .project {
     margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .hero-wrapper {
+    flex-direction: row !important;
+    justify-content: space-between;
   }
 }

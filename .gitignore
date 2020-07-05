@@ -1,2 +1,4 @@
 node_modules
 font-awesome
+# Local Netlify folder
+.netlify
