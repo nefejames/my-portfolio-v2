@@ -51,7 +51,8 @@ main {
   margin-top: 2rem; }
 
 .section {
-  padding: 1rem 0; }
+  padding: 1rem 0;
+  margin-bottom: 2rem; }
 
 .section-hero .hero-wrapper {
   display: flex;
@@ -67,18 +68,19 @@ main {
     border-radius: 3px;
     background: #310944; }
 
-.section-hero .hero-right .links {
-  display: flex;
-  align-items: center;
+.section-hero .hero-right {
   margin-top: 1rem; }
-  .section-hero .hero-right .links li:not(:last-child) {
-    margin-right: 1rem; }
+  .section-hero .hero-right .links {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem; }
+    .section-hero .hero-right .links li:not(:last-child) {
+      margin-right: 1rem; }
 
 .section-projects h2 {
   margin-bottom: 1rem; }
 
 .section-projects .project {
-  width: 310px;
   padding: 1.4rem;
   margin-bottom: 2rem;
   border-radius: 3px;
