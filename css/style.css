@@ -66,7 +66,7 @@ main {
     padding: 0.6rem 1rem;
     margin-top: 1rem;
     border-radius: 3px;
-    background: #310944; }
+    background: #481261; }
 
 .section-hero .hero-right {
   margin-top: 1rem; }
@@ -103,13 +103,13 @@ main {
     margin-bottom: 0.8rem; }
   .section-projects .project__badges {
     display: flex;
-    margin-top: 1rem; }
+    margin-top: 2rem; }
     .section-projects .project__badges .badge {
       padding: 0.3rem 0.7rem;
       margin-right: 0.8rem;
       font-size: 1rem;
       border-radius: 3px;
-      background: #310944; }
+      background: #481261; }
 
 @media screen and (min-width: 500px) {
   .projects-container {
