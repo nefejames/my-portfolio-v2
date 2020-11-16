@@ -59,7 +59,10 @@ main {
   flex-direction: column; }
 
 .section-hero .hero-left {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  flex-basis: 0; }
+  .section-hero .hero-left h1 {
+    font-size: 1.4rem; }
   .section-hero .hero-left .cta {
     color: inherit;
     display: inline-block;
@@ -111,7 +114,17 @@ main {
       border-radius: 3px;
       background: #481261; }
 
+.blog-lists {
+  margin-top: 0.6rem; }
+  .blog-lists li {
+    margin-bottom: 0.5rem; }
+  .blog-lists a {
+    color: #fff;
+    border-bottom: 2px solid #481261; }
+
 @media screen and (min-width: 500px) {
+  .section-hero .hero-left {
+    flex-basis: 700px; }
   .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
